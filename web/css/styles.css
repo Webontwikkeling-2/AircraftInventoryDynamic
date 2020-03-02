@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+}
+
+body {
+
+    margin: auto;
+    background: mintcream;
+    text-align: center;
+}
+
+main {
+    width: 95%;
+    margin: auto;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+nav li, a {
+    font-size: 120%;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+header nav ul li {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    width: 200%;
+    margin-top: 0.125rem;
+    transition: background-color 2s;
+
+}
+
+header nav ul li a {
+    display: block;
+    padding: 10px;
+    font-family: Montserrat;
+}
+
+header {
+    background-image: url("../img/planebanner.jpg");
+    width: auto;
+    /*height: 40vh;*/
+    background-size: cover;
+    display: block;
+    margin-bottom: 40px;
+}
+
+header nav ul li:hover {
+    color: yellow;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-decoration: none;
+}
+
+nav ul li.active {
+    background-color: gold;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    height: 100px;
+    font-weight: 900;
+    font-size: 2rem;
+    font-family: Montserrat;
+    padding-top: 50px;
+}
+
+h2{
+    font-weight: 900;
+    font-size: 1.4rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+article {
+    border: solid 5px rgb(189, 205, 189);
+    border-radius: 10px;
+}
+
+article p, button {
+    text-align: center;
+}
+#inventory article table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article p {
+    padding: 15px;
+}
+
+article p:nth-child(2) {
+    border-top: solid 5px rgb(189, 205, 189);
+}
+
+article p button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    padding: 8px;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    font-weight: 900;
+}
+form{
+    border-left: solid 5px rgb(189, 205, 189);
+    border-right: solid 5px rgb(189, 205, 189);
+}
+fieldset label, input {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 0.2rem;
+    grid-row-gap: 0.6rem;
+    padding: 5px;
+}
+
+fieldset legend {
+    padding: 8px;
+    margin-bottom: 20px;
+    border-bottom: solid 5px rgb(189, 205, 189);
+    border-right: solid 5px rgb(189, 205, 189);
+    border-bottom-right-radius: 5px;
+}
+#add article form{
+    display: inline-block;
+}
+
+
+
+body footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 6.25rem;
+    background: rgb(189, 205, 189);
+    border-top-left-radius: 0.625rem;
+    border-top-right-radius: 0.625rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-top: 40px;
+}
+
+footer address {
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    height: 2.5rem;
+    border-radius: 0.3125rem;
+    /*padding: 0.625rem;*/
+    font-size: 80%;
+    padding-bottom: 1.5rem;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+footer address p {
+    color: black;
+    font-size: 100%;
+}
+
+footer address a {
+    color: blue;
+}
+
+
+@media all and (min-width: 800px) {
+    header nav ul {
+        flex-wrap: nowrap;
+        width: 100%;
+    }
+    p {
+        font-size: 1.4rem;
+    }
+
+    nav li, a {
+        font-size: 120%;
+
+    }
+
+}
+
+@media all and (min-width: 1100px) {
+
+}
