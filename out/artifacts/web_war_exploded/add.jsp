@@ -20,8 +20,8 @@
     <h1>Aircraft Inventory</h1>
     <nav>
         <ul>
-            <li> <a href="index.jsp">Home</a></li>
-            <li><a href="/AircraftServlet">View Invenntory</a> </li>
+            <li><a href="index.jsp">Home</a></li>
+            <li><a href="/AircraftServlet">View Invenntory</a></li>
             <li class="active"><a href="add.jsp">Add a plane</a></li>
         </ul>
     </nav>
@@ -46,9 +46,9 @@
 </main>
 <footer>
 
-    <address><p>Adres:</p> test</address>
-    <address><p>E-mail:</p> <a href="test">test</a></address>
-    <address><p>Tel:</p> ********</address>
+    <address><p>Made by:</p> Hendrik Rummens</address>
+    <address><p>Contact</p> <a href="hendrik.rummens@student.ucll.be">hendrik.rummens@student.ucll.be</a></address>
+    <address><p>Course</p> Webontwikkeling 2</address>
 </footer>
 
 

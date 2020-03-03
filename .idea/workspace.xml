@@ -6,7 +6,20 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6087efc5-5746-4cb1-bc32-cb76df1fd05d" name="Default Changelist" comment="" />
+    <list default="true" id="6087efc5-5746-4cb1-bc32-cb76df1fd05d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/domain/db/AircraftDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/domain/db/AircraftDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/domain/ui/controller/AircraftServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/domain/ui/controller/AircraftServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AircraftInventoryDynamic/domain/db/AircraftDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AircraftInventoryDynamic/domain/db/AircraftDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AircraftInventoryDynamic/domain/ui/controller/AircraftServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AircraftInventoryDynamic/domain/ui/controller/AircraftServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/db/AircraftDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/db/AircraftDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/ui/controller/AircraftServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/ui/controller/AircraftServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/styles.css" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,9 +85,10 @@
   <component name="ProjectId" id="1YLrxFOpGmUr9EHKvLD6mxKQcNd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Les 3 poging2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
@@ -183,8 +197,20 @@
       <workItem from="1583076832545" duration="3652000" />
       <workItem from="1583081893183" duration="656000" />
       <workItem from="1583142886350" duration="1804000" />
-      <workItem from="1583148984493" duration="300000" />
+      <workItem from="1583148984493" duration="363000" />
+      <workItem from="1583157505172" duration="99000" />
+      <workItem from="1583171720557" duration="333000" />
+      <workItem from="1583217597917" duration="63000" />
+      <workItem from="1583227331604" duration="1937000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1583149305357</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583149305357</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,10 +221,16 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>

@@ -30,9 +30,9 @@
 </main>
 <footer>
 
-  <address><p>Adres:</p> Test</address>
-  <address><p>E-mail:</p> <a href="test">to be continued</a></address>
-  <address><p>Tel:</p> ********</address>
+  <address><p>Made by:</p> Hendrik Rummens</address>
+  <address><p>Contact</p> <a href="hendrik.rummens@student.ucll.be">hendrik.rummens@student.ucll.be</a></address>
+  <address><p>Course</p> Webontwikkeling 2</address>
 </footer>
 
 </body>
