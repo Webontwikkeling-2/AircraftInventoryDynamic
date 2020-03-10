@@ -21,25 +21,25 @@
     <nav>
         <ul>
             <li><a href="index.jsp">Home</a></li>
-            <li><a href="/AircraftServlet">View Invenntory</a></li>
+            <li><a href="AircraftServlet">View Invenntory</a></li>
             <li class="active"><a href="add.jsp">Add a plane</a></li>
         </ul>
     </nav>
 </header>
 <main id="add">
     <article>
-        <form>
+        <form method="post" name="nieuw_form" action="AircraftServlet" novalidate>
             <fieldset>
                 <legend>New Plane</legend>
                 <label for="Name">Name*</label>
-                <input type="text" id="Name" required>
+                <input name="Name" type="text" id="Name" required>
                 <label for="RegNr">Registration Nr*</label>
-                <input type="text" id="RegNr" required>
+                <input name="RegNr" type="text" id="RegNr" required>
                 <label for="Nr of seats">Nr of seats*</label>
-                <input type="text" id="Nr of seats" required>
+                <input name="Nr of seats" type="text" id="Nr of seats" required>
                 <label for="Weight">Weight*</label>
-                <input type="text" id="Weight" required>
-                <input type="submit" value="Send">
+                <input name="Weight" type="text" id="Weight" required>
+                <input type="submit" value="Send" id="bewaar">
             </fieldset>
         </form>
     </article>

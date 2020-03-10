@@ -7,16 +7,17 @@ public class Aircraft {
     private double weight;
 
     public Aircraft(String name, String registrationNr, double nrOfSeats, double weight){
-        setName(name);
-        setRegistrationNr(registrationNr);
-        setNrOfSeats(nrOfSeats);
-        setWeight(weight);
+        this.name = name;
+        this.registrationNr = registrationNr;
+        this.nrOfSeats = nrOfSeats;
+        this.weight = weight;
 
     }
 
     public void setName(String name) {
         this.name = name;
     }
+
 
     public void setRegistrationNr(String registrationNr) {
         this.registrationNr = registrationNr;

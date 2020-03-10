@@ -1,7 +1,9 @@
 <%@ page import="domain.db.AircraftDB" %>
 <%@ page import="domain.model.Aircraft" %>
-<%@ page import="domain.ui.controller.AircraftServlet" %>
-<%@ page import="java.util.ArrayList" %><%--
+<%@ page import="ui.controller.AircraftServlet" %>
+<%@ page import="java.util.ArrayList" %>
+<%@ page import="java.lang.reflect.Array" %>
+<%@ page import="java.util.Collections" %><%--
   Created by IntelliJ IDEA.
   User: ItsZeppo
   Date: 26/02/2020
@@ -24,7 +26,7 @@
     <nav>
         <ul>
             <li><a href="index.jsp">Home</a></li>
-            <li class="active"> <a href="/AircraftServlet">View Inventory</a></li>
+            <li class="active"> <a href="AircraftServlet">View Inventory</a></li>
             <li><a href="add.jsp">Add a plane</a></li>
         </ul>
     </nav>
@@ -43,12 +45,12 @@
             </thead>
             <tbody>
 
-            <% for (Aircraft a : (ArrayList<Aircraft>)request.getAttribute("aircrafts")){ %>
+            <% for (Aircraft aircraft : (ArrayList<Aircraft>) request.getAttribute("aircrafts")){ %>
             <tr>
-                <td><%=a.getName()%></td>
-                <td><%=a.getRegistrationNr()%></td>
-                <td><%=a.getNrOfSeats()%></td>
-                <td><%=a.getWeight()%></td>
+                <td><%=aircraft.getName()%></td>
+                <td><%=aircraft.getRegistrationNr()%></td>
+                <td><%=aircraft.getNrOfSeats()%></td>
+                <td><%=aircraft.getWeight()%></td>
             </tr>
             <% } %>
             </tbody>

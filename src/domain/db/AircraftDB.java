@@ -2,7 +2,6 @@ package domain.db;
 
 import domain.model.Aircraft;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class AircraftDB {
@@ -24,9 +23,15 @@ public class AircraftDB {
         aircrafts.add(test4);
         aircrafts.add(test5);
     }
+    /*public void add(String naam, String regNr, int nrofseats, double weight){
+        aircrafts.add(new Aircraft(naam, regNr, nrofseats, weight));
+    }*/
+
     public void add(Aircraft aircraft){
         aircrafts.add(aircraft);
     }
+
+
 
     public ArrayList<Aircraft> getAircrafts(){
         return aircrafts;
@@ -45,8 +50,11 @@ public class AircraftDB {
 
     }
 
-    public void setAircrafts(ArrayList<Aircraft> aircrafts) {
-        this.aircrafts = aircrafts;
+    public void add(String name, String regNr, int parseInt, double parseDouble) {
     }
+
+    /*public void setAircrafts(ArrayList<Aircraft> aircrafts) {
+        this.aircrafts = aircrafts;
+    }*/
 
 }

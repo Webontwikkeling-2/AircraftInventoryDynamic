@@ -16,7 +16,7 @@
   <nav>
     <ul>
       <li class="active" ><a href="index.jsp">Home</a></li>
-      <li><a href="/AircraftServlet">View Invenntory</a> </li>
+      <li><a href="AircraftServlet">View Invenntory</a> </li>
       <li><a href="add.jsp">Add a plane</a></li>
     </ul>
   </nav>
@@ -25,7 +25,7 @@
   <article>
     <h2>Home</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A doloribus in ipsa itaque minus nihil recusandae soluta totam veritatis voluptate. A corporis dolorum eligendi nulla quas rem ullam voluptas, voluptates?</p>
-    <p><a href="/AircraftServlet"><button type="button">View Inventory</button></a></p>
+    <p><a href="AircraftServlet"><button type="button">View Inventory</button></a></p>
   </article>
 </main>
 <footer>
