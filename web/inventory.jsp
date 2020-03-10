@@ -46,6 +46,7 @@
             <tbody>
 
             <% for (Aircraft aircraft : (ArrayList<Aircraft>) request.getAttribute("aircrafts")){ %>
+
             <tr>
                 <td><%=aircraft.getName()%></td>
                 <td><%=aircraft.getRegistrationNr()%></td>
